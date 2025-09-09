@@ -41,5 +41,9 @@ comparison operators
 
 !   not
 
+the continue keyword is a skip
+
+the break keyword is a stop
+
 */
 
