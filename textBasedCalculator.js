@@ -1,12 +1,27 @@
 const prompt = require('prompt-sync')()
 
-console.log("Enter first number: ")
-const num1 = parseFloat(prompt("> "))
-console.log("Enter Second number: ")
-const num2 = parseFloat(prompt("> "))
+
+
+function getNumber(numberString){
+    while(true){
+        console.log("Enter number" +numberString+": ")
+        const num = parseFloat(prompt("> "))
+    
+
+        if(isNaN(num)){
+            console.log("Invalid Number, Please try again")
+        }else{
+            return num;
+            }
+        }
+}
+
+const num1 = getNumber(' One')
+const num2 = getNumber(' Two')
 console.log("Enter Operator (+, -, *, /): ")
 const operation = prompt("> ")
 
+//Learn more about functions.
 let result;
 let valid = true;
 switch(operation){
@@ -30,8 +45,3 @@ switch(operation){
 
 if(valid) 
     console.log(num1+" "+operation+" "+num2 + " = " + result)
-
-
-while (condition){
-
-}
