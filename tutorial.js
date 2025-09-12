@@ -42,7 +42,8 @@ comparison operators
 !   not
 
 the continue keyword is a skip(Once encountered, it skips the current iteration of the loop and moves to the next iteration. In other words, it stops executing the remaining code inside the loop for the current iteration and jumps to the next iteration or the beginning of the loop.)
-the break keyword is a stop
+
+the break keyword is a stop(as soon as it is encountered, it immediately terminates the entire loop, regardless of whether the loop condition is still true or not. The program then continues executing the code that follows the loop.)
 
 */
 
