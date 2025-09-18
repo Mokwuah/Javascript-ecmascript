@@ -67,6 +67,7 @@ const board = [
 
 let turn = "X";
 let turnCount = 0;
+let win = false;
 
 
 printBoard(board)
@@ -87,4 +88,5 @@ while(turnCount < 9){
      turnCount++;
 
     } 
+    if (!win) console.log("Tied Game!")
 
