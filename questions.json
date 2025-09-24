@@ -1,0 +1,70 @@
+{
+    "questions": [
+        {
+            "question": "what is the largest planet in our solar system?",
+            "options": [
+                "Earth",
+                "Mars",
+                "Jupiter",
+                "Saturn"
+            ],
+            "answer": "Jupiter"
+        },
+
+        {
+            "question": "Which Element has chemical Symbol 'O'",
+            "options": [
+                "Osmium",
+                "Oxygen",
+                "Gold",
+                "Oganesson"
+            ],
+            "answer": "Oxygen"
+        },
+
+        {
+            "question": "Who discovered Penicillin?",
+            "options": [
+                "Marie Curie",
+                "Alexander Fleming",
+                "Isaac Newton",
+                "Albert Einstein"
+            ],
+            "answer": "Alexander Fleming"
+        },
+
+        {
+            "question": "Who painted the Mona Lisa",
+            "options": [
+                "Vincent van Gogh",
+                "Pablo Picasso",
+                "Leonardo da Vinci",
+                "MichelAngelo"
+            ],
+            "answer": "Leonardo da Vinci"
+        },
+
+        {
+            "question": "Which planet is the closest to the sun?",
+            "options": [
+                "Mercury",
+                "Venus",
+                "Uranus",
+                "Mars"
+            ],
+            "answer": "Mercury"
+        },
+        
+        {
+            "question": "What is the boiling point of water?",
+            "options": [
+                "90",
+                "100",
+                "110",
+                "120"
+            ],
+            "answer": "100"
+        }
+]
+
+}

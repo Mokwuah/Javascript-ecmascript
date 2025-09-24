@@ -65,5 +65,9 @@ function functionName(parameter1, parameter2) {
     // Code to be executed
     return result; // Optional return statement
 }]
+
+Json = javascript object notation
+
+`` backricks allow you to embed variables inside of a string eg console.log(`${}`)
 */
 
